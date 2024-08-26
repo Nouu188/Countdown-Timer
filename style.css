@@ -1,0 +1,57 @@
+body, html {
+    background-color: rgb(189, 236, 236);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    font-family: 'Cascadia Code', Impact, sans-serif;
+}
+
+#cd_box {
+    background: url("https://images.unsplash.com/photo-1589218112660-81ef972e89e3?auto=format&fit=crop&q=80&w=1930&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    border-radius: 10px;
+    padding: 30px 50px;
+    width: 500px;
+    height: 200px;
+    position:absolute;
+}
+
+#timer {
+    display: flex;
+    justify-content: center;
+}
+
+.expired {
+    margin-top: 30px;
+    color: rgb(139, 246, 161);
+    font-weight: lighter;
+    font-size: 60px;
+    letter-spacing: 1.5px;
+}
+
+.timer-title {
+    margin-top: 30px;
+    font-size: larger;
+    color: rgb(197, 235, 229);
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.timer-part {
+    margin: 10px;
+    background-color: rgb(129, 222, 222);
+    border-radius: 5px;
+    padding: 10px;
+    width: 90px;
+    height: 81px;
+}
+
+.timer-part span {
+    font-size: 50px;
+}
+
+.timer-label {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
